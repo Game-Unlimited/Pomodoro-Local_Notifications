@@ -1,0 +1,19 @@
+{
+  "sounds": [
+    {
+      "id": "alarm",
+      "name": "Default Alarm",
+      "file": "alarm.mp3"
+    },
+    {
+      "id": "bell",
+      "name": "Bell",
+      "file": "bell.mp3"
+    },
+    {
+      "id": "chime",
+      "name": "Chime",
+      "file": "chime.mp3"
+    }
+  ]
+}

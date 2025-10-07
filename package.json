@@ -1,0 +1,39 @@
+{
+  "name": "pomodoro-local-notifications",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false"
+  },
+  "dependencies": {
+    "@capacitor-community/native-audio": "^7.0.1",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/dialog": "^7.0.2",
+    "@capacitor/haptics": "^7.0.2",
+    "@capacitor/local-notifications": "^7.0.3",
+    "@capacitor/preferences": "^7.0.2",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "nativewind": "^4.2.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native-safe-area-context": "^5.6.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3",
+    "@types/node": "^24.6.0",
+    "@types/react-native": "^0.72.8",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.3"
+  }
+}
+
